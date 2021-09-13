@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PRODUCT</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/product_detail.css">
+
+	<script type="text/javascript" src="js/all.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+	<div id="bg_overlay"></div>
+	<nav class="fixed-top">
+	<div class="container-fluid nav_color d-sm-none d-none d-xl-block d-lg-block">
+		<div class="d-flex justify-content-between mb-1">
+		    <div class="p-2 link_left mr-auto">
+		    	<a href="#">English</a>
+		    	<a href="#">Client Service</a>
+		    </div>
+		    <div class="p-2 navbar-brand mx-auto">
+		    	<a href="../index.html"><img src="pic/logo.png" class="navbar-brand" alt="logo" style="width:150px;"></a>
+		    </div>
+		    <div class="p-2 icon ml-auto">
+		    	<a href="#"><i class="fal fa-search"></i></a>&nbsp;
+		    	<a href="login.html"><i class="fal fa-user"></i></a>&nbsp;
+		    	<a href="#"><i class="fal fa-heart"></i></a>&nbsp;
+		    	<a href="../Dan/cart.html"><i class="fal fa-shopping-bag"></i></a>
+		    </div>
+		</div>
+
+		<nav class="navbar navbar-expand-sm justify-content-center link">
+		  	<ul class="navbar-nav">
+			    <li class="nav-item dropdown">
+			      	<a class="nav-link" href="#" data-toggle="dropdown">Clothing</a>
+			      		<div class="dropdown-content2">
+			      			<div class="row">
+			      				<div class="col-xl-3 col-lg-3">
+			      					<h6>FASHION</h6>
+			      					<a class="dropdown-item" href="../Vy/Products.html">Dresses</a>
+						          	<a class="dropdown-item" href="#">Shirts</a>
+						          	<a class="dropdown-item" href="#">Pants and Shorts</a>
+						          	<a class="dropdown-item" href="#">Coats</a>
+						          	<a class="dropdown-item" href="#">Best Seller</a>
+			      				</div>
+			      				<div class="col-xl-3 col-lg-3">
+			      					<h6>NEW</h6>
+			      					<a class="dropdown-item" href="#">New Arrivals</a>
+			      					<a class="dropdown-item" href="../Vy/News_shows.html">Céline Fall 2021</a>
+						          	<a class="dropdown-item" href="#">Autumn-winter</a>
+						          	<a class="dropdown-item" href="../Vy/Blog.html">Blog</a>
+			      				</div>
+			      				<div class="col-xl-3 col-lg-3">
+			      					<h6>NEWS AND SHOWS</h6>
+			      					<a class="dropdown-item" href="../Vy/News_shows.html">Women’s Fall 2021 Campaign</a>
+						          	<a class="dropdown-item" href="#">Summer 2022 Women’s show</a>
+						          	<a class="dropdown-item" href="#">Céline x Prada</a>
+						          	<a class="dropdown-item" href="#">Cruise 2022 Show</a>
+			      				</div>
+			      				<div class="col-xl-3 col-lg-3">
+			      					<h6>CLOTHING HOME</h6>
+			      					<a href="../Vy/Clothing.html"><img src="pic/dropdown.jpg" class="img-fluid"></a>
+			      				</div>
+			      			</div>
+			      		</div>
+			    </li> <!-- Clothing-->
+
+			    <li class="nav-item dropdown">
+			      	<a class="nav-link" href="#" data-toggle="dropdown">Footwear</a>
+			      		<div class="dropdown-content">
+			      			<div class="row">
+			      				<div class="col-lg-3">
+			      					<h6></h6>
+			      					<a class="dropdown-item" href="new_arrivals.html">New Arrivals</a>
+						          	<a class="dropdown-item" href="#">Best Sellers</a>
+						          	<a class="dropdown-item" href="#">New Trends</a>
+						          	<a class="dropdown-item" href="#">On Sale</a>
+			      				</div>
+			      				<div class="col-lg-3">
+			      					<h6>CATEGORIES</h6>
+			      					<a class="dropdown-item" href="#">All Footwear</a>
+						          	<a class="dropdown-item" href="#">Flats</a>
+						          	<a class="dropdown-item" href="#">Pumps</a>
+						          	<a class="dropdown-item" href="heels.html">Heeled Sandals</a>
+						          	<a class="dropdown-item" href="#">Boots</a>
+			      				</div>
+			      				<div class="col-lg-3">
+			      					<h6>NEW</h6>
+			      					<a class="dropdown-item" href="#">Magazine</a>
+						          	<a class="dropdown-item" href="#">Pre Fall'21 Collection</a>
+						          	<a class="dropdown-item" href="#">Céline x Prada</a>
+						          	<a class="dropdown-item" href="#">DaDa Sicky Crosx Concept</a>
+			      				</div>
+			      				<div class="col-lg-3 bla">
+			      					<img src="pic/nabanner2.jpg" class="img-fluid">
+			      					<h5>Quick View &nbsp;&nbsp;&#62;</h5>
+			      				</div>
+			      			</div>
+			      		</div>
+			    </li><!--Footwear-->
+
+			    <li class="nav-item dropdown">
+			      	<a class="nav-link" href="#" data-toggle="dropdown">Handbags</a>
+			      		<div class="dropdown-content1">
+			      			<div class="row mx-auto">
+			      				<div class="col-lg-5 mr-5">
+			      					<img width="100%" src="pic/banner11.jpg">
+			      					<a class="mt-4" href="../Dan/handbags.html">Handbags Home &nbsp;<i class="fal fa-angle-right"></i></a> 	
+			      				</div>
+			      				<div class="col-lg-2">
+			      					<h6>CATEGORIES</h6>
+						          	<a class="dropdown-item" href="../Dan/search_result.html">Handbags</a>
+						          	<a class="dropdown-item" href="../Dan/mini_bags.html">Mini Bags</a>
+						          	<a class="dropdown-item" href="../Dan/tote_bags.html">Tote Bags</a>
+						          	<a class="dropdown-item" href="../Dan/crossbodybag.html">Cross Body Bags</a>
+						          	<a class="dropdown-item" href="../Dan/packback.html">Packbacks</a>
+						          	<a class="dropdown-item" href="../Dan/travel_bags.html">Travel Bags</a>
+			      				</div>
+			      				<div class="col-lg-3">
+			      					<h6>COLLECTION</h6>
+			      					<a class="dropdown-item" href="../Dan/Summer_collection.html">Spring-summer Collection</a>
+						          	<a class="dropdown-item" href="../Dan/fall_collection.html">Fall-winter Collection</a>	
+			      				</div>		
+			      			</div>
+			      		</div>
+			    </li><!--Bags-->
+
+			    <li class="nav-item">
+			      	<a class="nav-link" href="../Dan/FAQs.html">FAQs</a>
+			    </li>
+		 	</ul>
+		</nav>
+	</div>
+
+	<!--MOBILE-->
+	<div class="d-block d-sm-block d-lg-none d-xl-none">
+		<div class="navbar navbar-expand-sm nav nav_color_mobile">
+			<!--Left_nav-->
+			<span style="font-size:25px;cursor:pointer" onclick="openNav()">
+				<i class="fal fa-bars"></i>
+			</span> &nbsp;
+			<div id="nav_mobile" class="sidenav">
+			  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fal fa-times"></i></a>
+				<div id="accordion_nav">
+						<div class="d-flex" href="#sidenav_1" data-toggle="collapse">
+							<a href="#" class="nav-link">Clothing</a>
+							<i class="fas fa-caret-down ml-auto mr-4 mt-3"></i>
+						</div>
+						<div id="sidenav_1" class="collapse linkItem" data-parent="#accordion_02">
+							<p>FASHION</p>
+							<a href="../Vy/Products.html" class="nav-link">Dresses</a>
+							<a href="#" class="nav-link">Shirts</a>
+							<a href="#" class="nav-link">Pants and Shorts</a>
+							<a href="#" class="nav-link">FAQs</a>
+							<a href="#" class="nav-link">Coats</a>
+							<a href="#" class="nav-link">Best Seller</a>
+							<p>NEW</p>
+							<a href="#" class="nav-link">New Arrivals</a>
+							<a href="#" class="nav-link">Céline Fall 2021</a>
+							<a href="#" class="nav-link">Autumn-winter</a>
+							<a href="../Vy/Blog.html" class="nav-link">Blog</a>
+							<p>NEWS AND SHOWS</p>
+							<a href="../Vy/News_shows.html" class="nav-link">Women’s Fall 2021 Campaign</a>
+							<a href="#" class="nav-link">Summer 2022 Women’s show</a>
+							<a href="#" class="nav-link">Cruise 2022 Show</a><br>
+						</div> <!--clothing-->
+				
+						<div class="d-flex" href="#sidenav_2" data-toggle="collapse">
+							<a href="#" class="nav-link">Footwear</a>
+							<i class="fas fa-caret-down ml-auto mr-4 mt-3"></i>
+						</div>
+						<div id="sidenav_2" class="collapse linkItem" data-parent="#accordion_nav">
+							<a href="new_arrivals.html" class="nav-link">New Arrivals</a>
+							<a href="#" class="nav-link">Best Sellers</a>
+							<a href="#" class="nav-link">New Trends</a>
+							<a href="#" class="nav-link">On Sale</a>
+							<p>CATEGORIES</p>
+							<a href="#" class="nav-link">All Footwear</a>
+							<a href="#" class="nav-link">Flats</a>
+							<a href="#" class="nav-link">Pumps</a>
+							<a href="heels.html" class="nav-link">Heeled Sandals</a>
+							<a href="#" class="nav-link">Boots</a>
+							<p>NEW</p>
+							<a href="#" class="nav-link">Magazine</a>
+							<a href="#" class="nav-link">Pre Fall'21 Collection</a>
+							<a href="#" class="nav-link">Céline x Prada</a>
+							<a href="#">DaDa Sicky Crosx Concept</a>
+						</div> <!--footwear-->
+				
+						<div class="d-flex" href="#sidenav_3" data-toggle="collapse">
+							<a href="#" class="nav-link">Bags</a>
+							<i class="fas fa-caret-down ml-auto mr-4 mt-3"></i>
+						</div>
+						<div id="sidenav_3" class="collapse linkItem" data-parent="#accordion_nav">
+							<p>CATEGORIES</p>
+							<a href="../Dan/search_result.html" class="nav-link">Handbags</a>
+							<a href="../Dan/mini_bags.html" class="nav-link">Mini Bags</a>
+							<a href="../Dan/tote_bags.html" class="nav-link">Tote Bags</a>
+							<a href="../Dan/crossbodybag.html" class="nav-link">Cross Body Bags</a>
+							<a href="../Dan/packback.html" class="nav-link">Packbacks</a>
+							<a href="../Dan/travel_bags.html" class="nav-link">Travel Bags</a>
+							<p>COLLECTION</p>
+							<a href="../Dan/Summer_collection.html" class="nav-link">Spring-summer Collection</a>
+							<a href="../Dan/fall_collection.html" class="nav-link">Fall-winter Collection</a>
+						</div> <!--bags-->
+					</div>
+				<a href="../Dan/FAQs.html" class="nav-link">FAQs</a>
+				<hr width="80%" align="center">
+				<a href="login.html" class="nav-link">Log in</a>
+				<a href="login.html" class="nav-link">Register</a>
+			</div>   
+
+			<!--icon_search-->
+			<a href="#" class="icon_nav_mb"><i class="fal fa-search"></i></a>
+
+			<!--Logo-->
+			<div class="navbar-brand mx-auto">
+		    	<a href="../index.html"><img src="pic/Logo.png" class="navbar-brand" alt="logo" style="width:100px;"></a>
+		    </div> 
+
+		    <!--icon heart_bag-->
+		    <a href="#" class="icon_nav_mb"><i class="fal fa-heart"></i></a> &nbsp; 
+		    <a href="../Dan/cart.html" class="icon_nav_mb"><i class="fal fa-shopping-bag"></i></a>
+		</div>
+	</div>
+	<!--END MOBILE-->
+
+	</nav>
+	<!--end nav-->
+
+	<div class="container-fluid sp">
+		<div class="container break">
+			<div class="row sptt">
+				<div class="col-xl-1 col-lg-1 p-0 d-none d-sm-none d-lg-block d-xl-block">
+					<div class="thumb_list justify-content-center align-items-center">
+						<img id="r_01" src="pic/sal2.0.0.jpg" width="100%" class="mb-2">
+						<img id="r_02" src="pic/sal2.1.1.jpg" width="100%" class="mb-2">
+						<img id="r_03" src="pic/sal2.2.2.jpg" width="100%" class="mb-2">
+						<img id="r_04" src="pic/sal2.3.3.jpg" width="100%" class="mb-2">
+						<img id="r_05" src="pic/sal2.4.4.jpg" width="100%" class="mb-2">
+					</div>
+				</div>
+
+				<div class="col-xl-6 col-lg-6 d-none d-sm-none d-lg-block d-xl-block">
+					<img src="pic/sal2.jpg" width="100%" id="big_img">
+
+				</div>
+
+				<!--mobile-->
+				<div id="productt" class="carousel slide d-block d-sm-block d-lg-none d-xl-none" data-ride="carousel">
+					<div class="carousel-inner">
+
+						<ul class="carousel-indicators">
+							<li data-target="#productt" data-slide-to="0" class="active"></li>
+							<li data-target="#productt" data-slide-to="1"></li>
+							<li data-target="#productt" data-slide-to="2"></li>
+							<li data-target="#productt" data-slide-to="3"></li>
+							<li data-target="#productt" data-slide-to="4"></li>
+						</ul>
+
+						<div class="carousel-item active">
+							<img src="pic/sal2.jpg" class="w-100">
+						</div>
+
+						<div class="carousel-item">
+							<img src="pic/sal2.1.jpg" class="w-100">
+						</div>
+
+						<div class="carousel-item">
+							<img src="pic/sal2.2.jpg" class="w-100">
+						</div>
+
+						<div class="carousel-item">
+							<img src="pic/sal2.3.jpg" class="w-100">
+						</div>
+
+						<div class="carousel-item">
+							<img src="pic/sal2.4.jpg" class="w-100">
+						</div>
+
+					</div>
+
+					<!-- Left and right controls -->
+					  <a class="carousel-control-prev" href="#productt" data-slide="prev">
+					    <span class="carousel-control-prev-icon"></span>
+					  </a>
+					  <a class="carousel-control-next" href="#productt" data-slide="next">
+					    <span class="carousel-control-next-icon"></span>
+					  </a>
+
+				</div>
+
+				<div class="col-xl-5 col-lg-5 col-sm-12 col-12 gtsp">
+					<h3 class="hdsp">Elise Freudin - Golden</h3>
+					<h3>$ 980</h3>
+					<h5>15% sale off now</h5>
+
+					<div id="color">
+						<h6>Color</h6>
+						<button type="button" class="btn active1 btn-circle b1"></button>
+						<button type="button" class="btn btn-circle b2"></button>
+					</div>
+
+					<div id="size">
+						<h6>Size</h6>
+						<button class="btn sz1">35</button>
+						<button class="btn active sz">36</button>
+						<button class="btn sz">37</button>
+						<button class="btn sz">38</button>
+						<button class="btn sz">39</button>
+						<button class="btn sz">40</button>
+					</div>
+
+					<p class="upbtn">
+						<button class="btn_bag">ADD TO CART</button>&nbsp;
+						<button class="btn_heart"><i class="fas fa-heart"></i></button>
+					</p>
+					<p>
+						<button class="btn_buy">BUY NOW</button>&nbsp;
+					</p>
+
+					<div id="accordion_01">
+						<div class="row ques" href="#ques1" data-toggle="collapse" data-parent="#accordion_01">
+							<div class="mr-auto">
+								<h5>Product Information</h5>
+							</div>
+							<div class="ml-auto"><i class="fal fa-plus"></i></div>
+						</div>
+						<div id="ques1" class="collapse ans" data-parent="#accordion_01">
+							<p>
+								Barely-there stiletto heeled sandal Elise Freudin is made in Italy from the softest luxury grade leathers. With squared heel, knotted toe thong and diagonal foot strap that buckles round the ankle, this lightly sculptural sandal deserves to be admired. This is the perfect heel for a wedding or summer party.
+							</p>
+							<ul>
+								<li>Made by hand in Italy.</li>
+								<li>100% Italian leather upper. Leather insole, lining, outsole.</li>
+								<li>Heel height: 7cm</li>
+								<li>Free Express Shipping Worldwide.</li>
+							</ul>
+						</div>
+					
+						<div class="row ques q2" href="#ques2" data-toggle="collapse">
+							<div class="mr-auto">
+								<h5>Shipping & Return</h5>
+							</div>
+							<div class="ml-auto"><i class="fal fa-plus"></i></div>
+						</div>
+						<div id="ques2" class="collapse ans" data-parent="#accordion_01">
+							<p>
+								We ship worldwide with Express Shipping and including duties and taxes* at no extra charge!
+							</p>
+							<ul>
+								<li>Standard Shipping Order: 8 - 15 business days</li>
+								<li>FedEx Express Shipping Order: 3 - 5 business days</li>
+							</ul>
+							<p>
+								For safety and health concerns, we only have limited team members on-site to process all the returns. Please allow extra processing time. For all the returns received, our team is processing them as soon as possible.
+							</p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container break" id="sp">
+		<h1>You May Also Like</h1>
+		<div class="row">
+			<div class="col-xl-3 col-sm-6 col-6 item">
+				<div class="wrap d-none d-sm-none d-lg-block d-xl-block"><img src="pic/boot5.jpg" class="img-fluid">
+					<div class="label">SALE</div>
+				</div>
+				<div class="d-block d-sm-block d-lg-none d-xl-none"><img src="pic/boot5.jpg" class="img-fluid">
+					<div class="label ml-3 mt-3">SALE</div>
+				</div>
+					<p class="item_name">Simone Frew - Black</p>
+					<div class="row price">
+						<p class="mr-auto">$ 2,580</p>
+						<p class="ml-auto d-none d-sm-none d-lg-block d-xl-block">
+							<span id="heart1"><i class="fal fa-heart" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;
+							<i class="fal fa-shopping-bag"></i>
+						</p>
+						<p class="ml-auto pbt d-block d-sm-block d-lg-none d-xl-none">
+							<button type="button">
+							<i class="fal fa-shopping-bag"></i>
+						</button>
+						</p>
+					</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-6 item">
+				<div class="wrap d-none d-sm-none d-lg-block d-xl-block"><img src="pic/sal1.jpg" class="img-fluid">
+				</div>
+				<div class="d-block d-sm-block d-lg-none d-xl-none"><img src="pic/sal1.jpg" class="img-fluid">
+				</div>
+					<p class="item_name">Block Strappy - Navy</p>
+					<div class="row price">
+						<p class="mr-auto">$ 1,150</p>
+						<p class="ml-auto d-none d-sm-none d-lg-block d-xl-block">
+							<span id="heart2"><i class="fal fa-heart" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;
+							<i class="fal fa-shopping-bag"></i>
+						</p>
+						<p class="ml-auto pbt d-block d-sm-block d-lg-none d-xl-none">
+							<button type="button">
+							<i class="fal fa-shopping-bag"></i>
+						</button>
+						</p>
+					</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-6 item">
+				<div class="wrap d-none d-sm-none d-lg-block d-xl-block"><img src="pic/sal3.jpg" class="img-fluid">
+					<div class="label">SALE</div>
+				</div>
+				<div class="d-block d-sm-block d-lg-none d-xl-none"><img src="pic/sal3.jpg" class="img-fluid">
+					<div class="label ml-3 mt-3">SALE</div>
+				</div>
+					<p class="item_name">Allyson Finn - Beige</p>
+					<div class="row price">
+						<p class="mr-auto">$ 1,067</p>
+						<p class="ml-auto d-none d-sm-none d-lg-block d-xl-block">
+							<span id="heart3"><i class="fal fa-heart" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;
+							<i class="fal fa-shopping-bag"></i>
+						</p>
+						<p class="ml-auto pbt d-block d-sm-block d-lg-none d-xl-none">
+							<button type="button">
+							<i class="fal fa-shopping-bag"></i>
+						</button>
+						</p>
+					</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-6 item">
+				<div class="wrap d-none d-sm-none d-lg-block d-xl-block"><img src="pic/boot14.jpg" class="img-fluid">
+				</div>
+				<div class="d-block d-sm-block d-lg-none d-xl-none"><img src="pic/boot14.jpg" class="img-fluid">
+				</div>
+					<p class="item_name">Moka Linn - White</p>
+					<div class="row price">
+						<p class="mr-auto">$ 2,490</p>
+						<p class="ml-auto d-none d-sm-none d-lg-block d-xl-block">
+							<span id="heart4"><i class="fal fa-heart" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;
+							<i class="fal fa-shopping-bag"></i>
+						</p>
+						<p class="ml-auto pbt d-block d-sm-block d-lg-none d-xl-none">
+							<button type="button">
+							<i class="fal fa-shopping-bag"></i>
+						</button>
+						</p>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container back text-center">
+		<button>&#60;&nbsp;&nbsp;&nbsp;Back To Footwear</button>
+	</div>
+
+	<div class="container break style">
+		<h1>Céline Styles</h1>
+		<div class="row">
+			<div class="col-12 col-sm-12 col-lg-6 col-xl-6">
+				<div class="d-none d-sm-none d-lg-block d-xl-block">
+					<div class="wrap"><img src="pic/s1.jpg" class="img-fluid"></div>
+					<h3>Céline's Bags</h3>
+				</div>
+				<div class="d-block d-sm-block d-lg-none d-xl-none">
+					<img src="pic/s1.jpg" class="img-fluid">
+					<h3>Céline's Bags</h3>
+				</div>
+			</div>
+			<div class="col-12 col-sm-12 col-lg-6 col-xl-6">
+				<div class="d-none d-sm-none d-lg-block d-xl-block">
+					<div class="wrap"><img src="pic/s2.jpg" class="img-fluid"></div>
+					<h3>Céline's Clothing</h3>
+				</div>
+				<div class="d-block d-sm-block d-lg-none d-xl-none mt-4">
+					<img src="pic/s2.jpg" class="img-fluid">
+					<h3>Céline's Clothing</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="d-flex justify-content-center align-items-center">
+			<div class="find_content d-none d-sm-none d-lg-block d-xl-block">
+				<h4>FIND US ON</h4>
+				<div class="find_icon">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram-square"></i></a>
+				</div>
+				<p>You can hear about events, collections and news by entering your email address in the section below.</p>
+			</div>
+			<div class="find_content1 d-block d-sm-block d-lg-none d-xl-none">
+				<h4>FIND US ON</h4>
+				<div class="find_icon">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram-square"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--bản desktop-->
+	<div class="container-fluid d-none d-sm-none d-lg-block red_bg myfooter1">
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2">
+					<h6>CONTACT US</h6>
+					
+					<ul class="nav flex-column link1">
+						<li class="nav-item">
+							<a href="#" class="nav-link"><i class="fas fa-phone"></i>&nbsp;&nbsp;+270 236 917</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; 470 De Vent St </a>
+						</li>
+					</ul>
+				</div>	
+					
+				<div class="col-lg-2">
+					<h6 >CUSTOMER CARE</h6>
+						
+					<ul class="nav flex-column link1">
+						<li class="nav-item">
+							<a href="#" class="nav-link">Exclusive Service</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Orders & Shipping </a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Returns & Refunds</a>
+						</li>
+						<li class="nav-item">
+							<a href="../Dan/FAQs.html" class="nav-link">FAQs</a>
+						</li>
+						<li class="nav-item">
+							<a href="../Vy/Account.html" class="nav-link">Managing account</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Legal Policy</a>
+						</li>
+							
+					</ul>
+				</div>
+
+					
+				<div class=" col-lg-2 ">
+					<h6 class="bold_text">ABOUT US</h6>
+					<ul class="nav flex-column link1">
+						<li class="nav-item">
+							<a href="company_profile.html" class="nav-link ">Company Profile</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Corporate Data </a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Investor Relations</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Careers</a>
+						</li>
+					
+					</ul>
+				</div>
+					
+				<div class=" col-lg-6" >
+					<h6 >SIGN UP FOR UPDATES</h6>
+						
+					<p>
+						<input class="login_box " type="email" placeholder="Enter your email address ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn_footer ">Sign Up</button>
+					</p>
+		
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="logo_box border-top mt-5">
+					<p class="logo mt-5">CÉLINE</p>
+					<p class="mt-4">
+						Copyright © Céline Fashion 2018 – All rights reserved
+					</p>
+				</div>
+			</div>	
+		</div>	
+			
+	</div>
+  <!--end bản desktop-->
+
+
+  <!--bản mobile-->
+	<div class="container-fluid d-block d-sm-block d-lg-none red_bg myfooter1">
+		
+		<div class="container ">
+			<h6>SIGN UP FOR UPDATES</h6>
+			<br>	
+			<p class="fom"><input class="login_box1 " type="email" placeholder="Enter your email address ">&nbsp;&nbsp;<button class="btn btn_footer1">Sign Up</button><p>
+
+			</div>
+
+			<br>
+
+			<div class="col-12">
+				<div id="accordior_01">
+					<div class="row point" href="#cau_3" data-toggle="collapse">
+						<div class="mr-auto">
+							<h6>CUSTOMER CARE</h6>
+						</div>
+						<div class="ml-auto"><i class="fas fa-caret-down"></i></div>
+					</div>
+					<div id="cau_3" class="collapse link2">
+						<a href="#" class="nav-link">Exclusive Service</a>
+						<a href="#" class="nav-link">Orders & Shipping</a>
+						<a href="#" class="nav-link">Returns & Refunds</a>
+						<a href="#" class="nav-link">FAQs</a>
+						<a href="../Vy/Account.html" class="nav-link">Managing your account</a>
+						<a href="#" class="nav-link">Legal Policy</a>
+					</div>
+				</div>
+					
+				<br>	
+			
+				<div id="accordior_01">
+					<div class="row point" href="#cau_2" data-toggle="collapse">
+						<div class="mr-auto">
+							<h6>ABOUT US</h6>
+						</div>
+						<div class="ml-auto"><i class="fas fa-caret-down"></i></div>
+					</div>
+					<div id="cau_2" class="collapse link2">
+						<a href="company_profile.html" class="nav-link">Company Profile</a>
+						<a href="#" class="nav-link">Corporate Data</a>
+						<a href="#" class="nav-link">Investor Relations</a>
+						<a href="#" class="nav-link">Careers</a>
+						<a href="#" class="nav-link"><i class="fas fa-phone"></i>&nbsp;&nbsp;+270 236 917</a>
+						<a href="#" class="nav-link"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; 470 De Vent St </a>
+					</div>
+				</div>
+
+				<br>
+				
+				<div id="accordior_01">
+					<div class="row point" href="#cau_1" data-toggle="collapse">
+						<div class="mr-auto">
+							<h6>CONTACT US</h6>
+						</div>
+						<div class="ml-auto"><i class="fas fa-caret-down"></i></div>
+					</div>
+					<div id="cau_1" class="collapse link2">
+						<a href="#" class="nav-link"><i class="fas fa-phone"></i>&nbsp;&nbsp;+270 236 917</a>
+						<a href="#" class="nav-link"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; 470 De Vent St </a>
+					</div>
+				</div>	
+				
+				<br>
+				<hr width="90%" color="#fff" align="center">
+				
+				<div class="text-center">
+					<p class="logo1 mt-6" align="center">CÉLINE</p>
+						
+					<p class="mt-4">Copyright © Céline Fashion 2018 – All rights reserved</p>
+				</div>	
+			</div>	
+		</div>	
+	</div>	
+  <!--end bản mobile-->
+
+	<script type="text/javascript">
+		function openNav(){
+		  document.getElementById("nav_mobile").style.width = "320px";
+		  document.getElementById('bg_overlay').style.display = "block";
+		}
+		function closeNav(){
+		  document.getElementById("nav_mobile").style.width = "0";
+		  document.getElementById('bg_overlay').style.display = "none";
+		}
+
+		$(document).ready(function(){
+
+			$('#r_01').click(function(){
+				$('#big_img').fadeOut(300, function(){
+					$('#big_img').attr('src','pic/sal2.jpg');
+					$('#big_img').fadeIn(300);
+				});		
+			})
+
+			$('#r_02').click(function(){
+				$('#big_img').fadeOut(300, function(){
+					$('#big_img').attr('src','pic/sal2.1.jpg');
+					$('#big_img').fadeIn(300);
+				});		
+			})
+
+			$('#r_03').click(function(){
+				$('#big_img').fadeOut(300, function(){
+					$('#big_img').attr('src','pic/sal2.2.jpg');
+					$('#big_img').fadeIn(300);
+				});		
+			})
+
+			$('#r_04').click(function(){
+				$('#big_img').fadeOut(300, function(){
+					$('#big_img').attr('src','pic/sal2.3.jpg');
+					$('#big_img').fadeIn(300);
+				});		
+			})
+
+			$('#r_05').click(function(){
+				$('#big_img').fadeOut(300, function(){
+					$('#big_img').attr('src','pic/sal2.4.jpg');
+					$('#big_img').fadeIn(300);
+				});		
+			})
+		});
+
+		var btnContainer = document.getElementById("color");
+		var btns = btnContainer.getElementsByClassName("btn-circle");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function() {
+		    var current = document.getElementsByClassName("active1");
+		    current[0].className = current[0].className.replace("active1", "");
+		    this.className += "active1";
+		  });
+		}
+
+		var btnContainer = document.getElementById("size");
+		var btns = btnContainer.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function() {
+		    var current = document.getElementsByClassName("active");
+		    current[0].className = current[0].className.replace("active", "");
+		    this.className += "active";
+		  });
+		}
+
+		$(document).ready(function(){
+		  $("#heart1").click(function(){
+		    if($("#heart1").hasClass("liked")){
+		      $("#heart1").html('<i class="fal fa-heart" aria-hidden="true"></i>');
+		      $("#heart1").removeClass("liked");
+		    }else{
+		      $("#heart1").html('<i class="text-dark fas fa-heart" aria-hidden="true"></i>');
+		      $("#heart1").addClass("liked");
+			    }
+			});
+
+		  $("#heart2").click(function(){
+		    if($("#heart2").hasClass("liked")){
+		      $("#heart2").html('<i class="fal fa-heart" aria-hidden="true"></i>');
+		      $("#heart2").removeClass("liked");
+		    }else{
+		      $("#heart2").html('<i class="text-dark fas fa-heart" aria-hidden="true"></i>');
+		      $("#heart2").addClass("liked");
+			    }
+			});
+
+		  $("#heart3").click(function(){
+		    if($("#heart3").hasClass("liked")){
+		      $("#heart3").html('<i class="fal fa-heart" aria-hidden="true"></i>');
+		      $("#heart3").removeClass("liked");
+		    }else{
+		      $("#heart3").html('<i class="text-dark fas fa-heart" aria-hidden="true"></i>');
+		      $("#heart3").addClass("liked");
+			    }
+			});
+
+		  $("#heart4").click(function(){
+		    if($("#heart4").hasClass("liked")){
+		      $("#heart4").html('<i class="fal fa-heart" aria-hidden="true"></i>');
+		      $("#heart4").removeClass("liked");
+		    }else{
+		      $("#heart4").html('<i class="text-dark fas fa-heart" aria-hidden="true"></i>');
+		      $("#heart4").addClass("liked");
+			    }
+			});
+
+		});
+
+	</script>
+</body>
+</html>
